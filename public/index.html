@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>codecentric Members</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- js libs -->
+    <script type="text/javascript" src="js/lib/jquery_1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/lib/underscore.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.js"></script>
+    <!-- page js -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/GitHub.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">codecentric Members</h1>
+        <div class="jumbotron">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="member" class="col-sm-2 control-label">Member Name:</label>
+                    <div class="col-sm-3">
+                        <input type="text" name="member" id="member" class="form-control" />
+                    </div>
+                    <div class="col-sm-1">
+                        <button type="button" class="btn btn-default" id="buttonMemberRepo">Load</button>
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="language" class="col-sm-2  control-label">Language:</label>
+                    <div class="col-sm-3">
+                        <input type="text" name="language" id="language" class="form-control" />
+                    </div>
+                    <div class="col-sm-1">
+                        <button type="button" class="btn btn-default" id="buttonLanguage">Load</button>
+                    </div>
+                </div>
+            </form>
+            <button type="button" class="btn btn-default" id="buttonAllMembers">Load all members</button>
+        </div>
+        <div class="jumbotron">
+            <h2>Result</h2>
+            <div class="output"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# github_members
-An overview of github members
+- Initialisieren und Dependencies laden: <code>npm install</code>
+- Starten auf localhost:80: <code>npm start</code>
